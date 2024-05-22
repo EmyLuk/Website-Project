@@ -1,0 +1,403 @@
+﻿<!Doctype html>
+	<head>
+		<title>Personalitate</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="Css/style.css">
+		<style>
+		#myImg {
+		border: thick solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+#myImg2 {
+border: thick solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+#myImg3 {
+border: thick solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg3:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+#caption2 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+#caption3 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close2 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close3 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close3:hover,
+.close3:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+footer{
+	padding:0.1em;
+	background-color:#a76e0597;
+	clear:left;
+	text-align:center;
+}
+header{
+	padding:10px;
+	background-color:#a76e0597;
+	clear:left;
+	text-align:center;
+	padding-bottom:0.1mm;
+}
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+	text-align:left;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ffd859cf;
+}
+.animatie:hover{
+		background-color: #ffd859cf;
+	}
+.animatie2{
+		background-color: #ffd859cf;
+	}
+		</style>
+	</head>
+	<body background="IMG/back1.jpg" style=" background-attachment: fixed; overflow: visible;">
+	<div align="center" id="mainContainer">
+	   <section id="content-section"> 
+	   <header>
+	   
+		<p style="float: left;"><font color="white" size="+2" style="font-family:verdana">
+		<b>&emsp; Domnia lui Stefan cel Mare </b></font>
+		<center align="right" style="margin-right:5px;">
+			<br>
+			<a href="../Home.html" target="_parent">
+				<button class="dropbtn animatie"><b>Acasă</b></button>
+			</a>
+			
+			<a href="Despre.html" target="_parent">
+				<button class="dropbtn animatie"><b>Despre</b></button>
+			</a>
+			
+			<div class="dropdown">
+                <button class="dropbtn" ><b>Cuprins</b></button>
+                <div  class="dropdown-content">
+                    <a href="Stefan.html">Cine a fost Ștefan cel Mare?</a>
+				    <a href="personalitate.html">Personalitatea</a>
+				    <a href="politica interna.html">Politica internă</a>
+					<a href="VES.html">Viața economica si sociala</a>
+					<a href="G3.html">Politica externa</a>
+					<a href="IR.html">Razboaie si batalii</a>
+					<a href="SF.html">Arta, cultura si religia</a>
+			  </div>
+			</div>
+			
+			<a href="Concluzie.html" target="_parent">
+				<button class="dropbtn animatie"><b>Concluzie</b></button>
+			</a>
+			
+			<a href="Bibliografie.html" target="_parent">
+				<button class="dropbtn animatie"><b>Bibliografie</b></button>
+			</a>
+		</center></p>
+	   </header>
+		<div  align="left" class="message">
+		<center><br><br>
+		<img  id="myImg" src="IMG/stef5.jpg" alt="Sistemul binar " style="width:250px;height:185px;">
+		<img id="myImg2" src="IMG/stef6.jpg" alt="Cartele perforate " style="width:250px;height:185px;">
+		</center><br>
+		<center><p><big><font size="+1">
+		<table>
+			<tr>
+				<th><big><font size="+2"><u>Personalitatea</u></th>
+			</tr>
+			<tr>
+				<td><big><font size="+1"><p> &emsp; Descrierea, înfățișării, caracterului și trăsăturilor de personalitate ale lui Ștefan cel Mare este
+                    o intrepindere dificilă, având în vedere că nu s-au păstrat izvoare documentare interne din epocă, iar
+                    multe din cele externe se bazează pe relatări orale, mai mult sau mai puțin credibile, și interpretate
+                    funcție de contextul cultural local și interesele pe care țara respectivă le avea față de Moldova.
+                    Unele dintre scrierile contemporane lui au un vădit caracter apologetic, fiind pline de cuvinte de
+                    laudă și alcătuite, foarte probabil, din dorința vădită de a-l linguși pe Ștefan, în vederea obținerii
+                    unor foloase. Alte caracterizări, scrisese după moartea lui, au preluat ideile acestora, într-un mod
+                    selectiv, în încercarea de a crea un erou idealizat, care să servească drept model pentru deșteptarea
+                    sau cultivarea unei conștiințe naționale a românilor.<br><p>
+				&emsp; „Sunt, însă, și caracterizări provenind din spații și epoci diferite care îi atribuie, în chip
+                repetat, aceleași însușiri, ceea ce înseamnă că ele îi erau cu adevărat proprii.”<br><p>
+				</td>
+			</tr>
+		</table>
+		<center>
+			<img id="myImg3" src="IMG/stef7.jpg" alt="Mașina analitică" style="width:170px;height:235px;">
+		</center>
+		<table>
+			<tr>
+				<td><p> &emsp; Lui Ștefan cel Mare românul îi atribuie tot ce-i pare curios,mare, vitejesc și chiar neînțeles
+                    în pământul nostru. Orice cetate, orice zid, orice val, orice șanț, întreabă-l cine le-au făcut;
+                    el îți va răspunde: Ștefan cel Mare. Orice pod, orice biserică, orice fântână, orice curte sau
+                    palat vechi, el le va raporta eroului său. Orice bunătate,
+                    orice așezământ a căruia rămășițe se mai trăgănează până astăzi, orice legiuire ominească,
+                    orice puneri la cale înțălepte Ștefan vodă le-au urzit, îți va zice el, și iar Ștefan vodă. În sfârșit, acest domn, pentru
+                    moldoveni rezumă toate faptele istorice, toate monumentele, toate isprăvile și instituțiile făcute în cinci veacuri, de atâția
+                    stăpânitori.<br><p>
+				&emsp;El era religios și crud in același timp, două însușiri, ce nu s-au exclus niciodată una pe alta, deși religia creștină
+                 recomandă blândețea ca virtutea ei supremă. Despre modul în care s-au manifestat ambele aceste însușiri s-au păstrat multe mărturii.
+                  Pentru caracterul evlavios și pios stau mărturie atât numărul mare de lăcașuri de cult construite cât și pictura bisericească și cărțile
+                   de cult cu care acestea au fost înzestrate. La rândul lor, episoadele de cruzime, uneori extremă, apar și ele pe timpul îndelungatei sale
+                   domnii: arderea orașului Brăila, omorârea solilor tătari, omorârea fără judecată a unor boieri, inclusiv a doi dintre cumnații săi etc. 
+                   Deși acest tip de fapte reprezentau de multe ori „normalitatea” prin care suveranii creștini sau musulmani din epocă își exercitau dreptul
+                    de viață și de moarte asupra supușilor, ignorarea de către aceștia a unor cutume privind protecția populației necombatante, protecția 
+                    solilor sau dreptul la judecată, era condamnată de către societate, chiar dacă era justificată de suverani prin necesități dinastice,
+                     politice sau militare.
+				</td>
+			</tr>
+		</table>
+		 </center>
+		 </div>
+		 <footer>
+		 <p align="left"><font color="white" style="margin-left:5px;" >
+	<span style="float:right; margin-right:5px;"><u>Domnia lui Stefan cel Mare</u></span></font> </p></footer>
+	   </section>
+	</div>
+		<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="img">
+  <div id="caption"></div>
+</div>
+<div id="myModal2" class="modal">
+  <span class="close2">×</span>
+  <img class="modal-content" id="img2">
+  <div id="caption2"></div>
+</div>
+<div id="myModal3" class="modal">
+  <span class="close3">×</span>
+  <img class="modal-content" id="img3">
+  <div id="caption3"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+
+// Get the modal
+var modal = document.getElementById('myModal3');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg3');
+var modalImg = document.getElementById("img3");
+var captionText = document.getElementById("caption3");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close3")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// Get the modal
+var modal = document.getElementById('myModal2');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg2');
+var modalImg = document.getElementById("img2");
+var captionText = document.getElementById("caption2");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close2")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+</script>
+
+	</body>
+</html>

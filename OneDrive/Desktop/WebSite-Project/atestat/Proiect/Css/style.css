@@ -1,0 +1,22 @@
+
+#mainContainer{
+    margin:0 auto;
+    width: 50%;
+}
+#content-section{
+    background-color: white;
+    box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.75);
+  margin-top:-18px;
+  width:900px;
+    
+}
+#content-section h2{
+    
+    text-align: center;
+}
+
+.message
+{
+  margin-left:15px;
+}
+

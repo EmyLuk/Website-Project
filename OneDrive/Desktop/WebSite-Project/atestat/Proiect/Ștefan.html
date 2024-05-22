@@ -1,0 +1,560 @@
+﻿<!Doctype html>
+	<head>
+		<title>Cine a fost Stefan cel Mare?</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="Css/style.css">
+		<style>
+		#myImg {
+		border: thick solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+#myImg2 {
+border: thick solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+#myImg3 {
+border: thick solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg3:hover {opacity: 0.7;}
+#myImg4 {
+border: thick solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg4:hover {opacity: 0.7;}
+#myImg5 {
+border: thick solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg5:hover {opacity: 0.7;}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+#caption2 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+#caption3 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+#caption4 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+#caption5 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close2 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close3 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close3:hover,
+.close3:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close4 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close4:hover,
+.close4:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close5 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close5:hover,
+.close5:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+footer{
+	padding:0.1em;
+	background-color:#a76e0597;
+	clear:left;
+	text-align:center;
+	}
+header{
+	padding:10px;
+	background-color:#a76e0597;
+	clear:left;
+	text-align:center;
+	padding-bottom:0.1mm;
+}
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+	text-align:left;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ffd859cf;
+}
+.animatie:hover{
+		background-color: #ffd859cf;
+	}
+.animatie2{
+		background-color: #ffd859cf;
+	}
+		</style>
+	</head>
+	<body background="IMG/back1.jpg" style=" background-attachment: fixed;">
+	<div align="center" id="mainContainer">
+	   <section id="content-section"> 
+	   <header>
+	   
+		<p style="float: left;"><font color="white" size="+2" style="font-family:verdana">
+		<b>&emsp; Domnia lui Stefan cel Mare </b></font>
+		<center align="right" style="margin-right:5px;">
+			<br>
+			<a href="Home.html" target="_parent">
+				<button class="dropbtn animatie"><b>Acasă</b></button>
+			</a>
+			
+			<a href="Despre.html" target="_parent">
+				<button class="dropbtn animatie"><b>Despre</b></button>
+			</a>
+			
+			<div class="dropdown">
+                <button class="dropbtn" ><b>Cuprins</b></button>
+                <div  class="dropdown-content">
+                    <a href="Home.html">Cine a fost Ștefan cel Mare?</a>
+				    <a href="personalitate.html">Personalitatea</a>
+				    <a href="politica interna.html">Politica internă</a>
+					<a href="VES.html">Viața economica si sociala</a>
+					<a href="G3.html">Politica externa</a>
+					<a href="IR.html">Razboaie si batalii</a>
+					<a href="SF.html">Arta, cultura si religia</a>
+			  </div>
+			</div>
+			
+			<a href="Concluzie.html" target="_parent">
+				<button class="dropbtn animatie"><b>Concluzie</b></button>
+			</a>
+			
+			<a href="Bibliografie.html" target="_parent">
+				<button class="dropbtn animatie"><b>Bibliografie</b></button>
+			</a>
+		</center></p>
+	   </header>
+		<div  align="left" class="message">
+		<center><br><br>
+		<img  id="myImg" src="IMG/stefan4.jpg" alt="Abacul" style="width:250px;height:185px;">
+		<img id="myImg2" src="IMG/stefan5.jpg" alt="Mecanismul de la Antikythera" style="width:250px;height:185px;">
+		</center><br>
+		<center><p><big><font size="+1">
+		<table>
+			<tr>
+				<th><big><font size="+2"><u>Cine a fost Ștefan cel Mare?</u></th>
+			</tr>
+			<tr>
+				<td><big><font size="+1"><p> &emsp; Ştefan cel Mare, fiul lui Bogdan al II-lea (1449-1451) şi
+                    al soţiei sale Oltea, s-a născut cel mai probabil în anul 1438.
+                    După moartea tatălui său, Ştefan s-a refugiat în Transilvania
+                    stăpânită de către Iancu de Hunedoara (1441-1456), unde s-a
+                    familiarizat cu tacticile militare ale acestuia, care îmbinau
+                    elemente de artă militară din estul, centrul şi apusul Europei. Cu
+                    o forţă militară pusă la dispoziţie de către Vlad Ţepeş (1448;
+                    1456-1472; 1476), la care s-au adăugat partizanii săi din sudul
+                    Moldovei, Ştefan cel Mare l-a învins pe Petru Aron la Doljeşti (Dolheşti), cucerind tronul Moldovei
+                    pe data de 12 aprilie 1457. A găsit o ţară sărăcită, sfâşiată de luptele dintre diverşii pretendenţi la
+                    domnia Moldovei, o ţară ce plătea tribut turcilor începând cu anul 1456. <br><p>
+				 &emsp; Conform tradiției, Ștefan cel Mare s-a născut la moșia tatălui său de la Borzești, ca fiu nelegitim
+                  al viitorului domn al Moldovei, Bogdan al II-lea și al Oltei. Bogdan era la rândul său fiu nelegitim al lui 
+                  Alexandru cel Bun, iar soția sa, Oltea provenea dintr-o familie de boieri de lângă Bacău, cei doi cunoscându-se 
+                  în perioada în care Bogdan s-a aflat în exil la curtea lui Vlad Dracul. Familia a mai avut încă trei băieți: Ioachim,
+                   Ion și Crâstea și două fete: Maria și Sora.
+                 <br><p>
+				 &emsp; Data nașterii nu este cunoscută cu certitudine, cele mai plauzibile variante fiind anii 1438 sau 1439.
+                  Despre copilăria lui Ștefan cel Mare nu sunt date cunoscute, cel mai probabil acesta și-a petrecut-o la reședința familiei.
+                 <br><p>
+				</td>
+			</tr>
+		</table>
+		<center>
+			<img id="myImg3" src="IMG/stef.jpg" alt="Carul îndreptat spre sud" style="width:250px;height:220px;">
+			<img id="myImg4" src="IMG/stef2.jpg" alt="Equatoriumul lui Arzachel" style="width:250px;height:220px;">
+			<img id="myImg5" src="IMG/stef3.jpg" alt="Astrolabul lui Al - Biruni" style="width:250px;height:220px;">
+		</center><br>
+		<table>
+			<tr>
+				<td>
+				 &emsp; În toamna anului 1449, tatăl său, Bogdan sprijinit cu
+                 un corp de oaste trimis de  Iancu de Hunedoara , învinge
+                 armata lui Alexandru al II-lea la  Tămășeni , lângă apa
+                 Moldovei, la 12 octombrie 1449 și se proclamă domn. Alexandru se refugiază în Transilvania, de
+                 unde va încerca să își recapete tronul. La rândul său, Bogdan, după o încercare nereușită de a căpăta
+                 sprijinul și protecția polonezilor, și-a îndreptat eforturile diplomatice către Ungaria.<br><p>
+				<p> &emsp; La 11 februarie 1450, Bogdan emite în „târgul de jos” — Roman — un  hrisov  de
+                    recunoaștere a suzeranității lui Iancu de Hunedoara, căruia îi făgăduiește sprijin și ajutor, în orice
+                    împrejurare, pentru ca în schimb „iubitul nostru părinte să ne ocrotească sub mâna sa și să ne apere
+                    de orice dușmani ai noștri”. La sfârșitul actului, unde sunt enumerați martorii care girau acel
+                    document este menționată, imediat după domn credința iubitului meu fiu, Ștefan Voevod. Actul
+                    reprezintă prima  atestare documentară  a viitorului domn al Moldovei. Din menționarea de către tatăl
+                    său ca asociat la domnie, rezultă că Ștefan împlinise în 1450 cel puțin unsprezece ani, vârsta
+                    minimă impusă de cutumele vremii pentru o astfel de demnitate.<br><p>
+				 &emsp; Bogdan avea să fie  asasinat , la 15 octombrie 1451, la  Reuseni , de către fratele său vitreg
+                 Petru, alt fiu nelegitim al lui Alexandru cel Bun și care va domni ulterior sub numele de  Petru
+                 Aron . Cronicarul polonez Jan Długosz relata astfel scena:
+                 „Un oarecare Petru, care pretindea că are drept la domnia Moldovei și se înțelesese cu
+                 Alexandru ca să împărțească toate deopotrivă, alegând prilejul când Bogdan, poftit la țară, la un
+                 unchi de frate al aceluiași Petru, era beat, pe o noapte urâtă, sosind numai cu o sută de moldoveni,
+                 înșelă străjile lui Bogdan și, prinzându-l, îi tăie capul.”<br>
+                 
+                      Jan Długosz, Historiae Polonicae<br><p>
+				 &emsp; După omorârea lui Bogdan, familia sa, inclusiv tânărul Ștefan vor pleca
+                 în exil în  Transilvania  și apoi în Țara Românească, după instalarea ca domn a lui Vlad
+                 Țepeș. Mama sa, Oltea avea să moară la 4 noiembrie 1465.<br><p>
+				 &emsp; Ștefan cel Mare a fost căsătorit de trei ori. Dacă predecesorii săi încercaseră prin căsătorii și
+                 alianțe matrimoniale să se apropie de suzeranii lor catolici, regii Ungariei și Poloniei, politica
+                 dinastică a lui Ștefan cel Mare privind căsătoriile a fost diferită - după cum remarca istoricul P. P.
+                 Panaitescu - toate trei soțiile lui sunt principese ortodoxe din țări vecine: Evdochia, fiica lui Simeon
+                 Olelkovici de la Kiev, Maria din Paleologii de la Mangup, în Crimeea, Maria, fiica lui Radu cel
+                 Frumos din Țara Românească.<br><p>
+				 &emsp; Căsătoria cu  Evdochia  a avut loc la 5 iulie 1463 când, după cum scrie  Grigore
+                 Ureche , luatu-s-au doamnă de mare rudă, pre Evdochiia de la Chiev, sora lui Simeon Împăratul.
+                 Iară cronicariul cel leșescu scrie că au fostu Evdochiia fată lui Simeon Împăratul, iară nu
+                 soră. Căsătoria a durat doar patru ani. Din această căsătorie au rezultat doi băieți și o fată.
+                 Băieții, Bogdan-Vlad născut în 1466 și Petru născut în 1467, au murit amândoi de tineri în anul
+                 1479, la câteva luni distanță, fiind îngropați împreună în același mormânt. Fata, Elena, avea să se
+                 mărite cu fiul țarului Ivan al III-lea al Rusiei. Evdochia moare și ea în 1467, posibil la nașterea lui
+                 Petru, fiind înmormântată în  Biserica Mirăuți  din Suceava.<br><p>
+				 &emsp; Ștefan a avut și un număr de concubine, cea mai cunoscută fiind Maria Rareș din  Hârlău ,
+                 mama viitorului domn  Petru Rareș .  Un alt posibil fiu nelegitim, a cărui mamă nu este cunoscută, a
+                 fost viitorul domn  Ștefan Lăcustă .
+                 Ștefan cel Mare a murit la 2 iulie 1504 în urma infectării unei răni mai vechi, fiind
+                 înmormântat la  Mănăstirea Putna .
+				</td>
+			</tr>
+		</table>
+		 </center>
+		 </div>
+		 <footer>
+		 <p align="left"><font color="white" style="margin-left:5px;" >
+	<span style="float:right; margin-right:5px;"><u>Domnia lui Stefan cel Mare</u></span></font> </p></footer>
+	   </section>
+	</div>
+		<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="img">
+  <div id="caption"></div>
+</div>
+<div id="myModal2" class="modal">
+  <span class="close2">×</span>
+  <img class="modal-content" id="img2">
+  <div id="caption2"></div>
+</div>
+<div id="myModal3" class="modal">
+  <span class="close3">×</span>
+  <img class="modal-content" id="img3">
+  <div id="caption3"></div>
+</div>
+<div id="myModal4" class="modal">
+  <span class="close4">×</span>
+  <img class="modal-content" id="img4">
+  <div id="caption4"></div>
+</div>
+<div id="myModal5" class="modal">
+  <span class="close5">×</span>
+  <img class="modal-content" id="img5">
+  <div id="caption5"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+
+// Get the modal
+var modal = document.getElementById('myModal3');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg3');
+var modalImg = document.getElementById("img3");
+var captionText = document.getElementById("caption3");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close3")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// Get the modal
+var modal = document.getElementById('myModal2');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg2');
+var modalImg = document.getElementById("img2");
+var captionText = document.getElementById("caption2");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close2")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+// Get the modal
+var modal = document.getElementById('myModal4');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg4');
+var modalImg = document.getElementById("img4");
+var captionText = document.getElementById("caption4");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close4")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+// Get the modal
+var modal = document.getElementById('myModal5');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg5');
+var modalImg = document.getElementById("img5");
+var captionText = document.getElementById("caption5");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close5")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+</script>
+
+	</body>
+</html>

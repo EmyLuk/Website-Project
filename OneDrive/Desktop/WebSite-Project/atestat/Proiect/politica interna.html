@@ -1,0 +1,418 @@
+﻿<!Doctype html>
+	<head>
+		<title>Politica Interna</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="Css/style.css">
+		<style>
+		#myImg {
+		border: thick solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+#myImg2 {
+border: thick solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+#myImg3 {
+border: thick solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg3:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+#caption2 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+#caption3 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close2 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close3 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close3:hover,
+.close3:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+footer{
+	padding:0.1em;
+	background-color:#a76e0597;
+	clear:left;
+	text-align:center;
+	}
+header{
+	padding:10px;
+	background-color:#a76e0597;
+	clear:left;
+	text-align:center;
+	padding-bottom:0.1mm;
+}
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+	text-align:left;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ffd859cf;
+}
+.animatie:hover{
+		background-color: #ffd859cf;
+	}
+.animatie2{
+		background-color: #ffd859cf;
+	}
+		</style>
+	</head>
+	<body background="IMG/back1.jpg" style=" background-attachment: fixed;">
+	<div align="center" id="mainContainer">
+	   <section id="content-section"> 
+	   <header>
+	   
+		<p style="float: left;"><font color="white" size="+2" style="font-family:verdana">
+		<b>&emsp; Domnia lui Stefan cel Mare </b></font>
+		<center align="right" style="margin-right:5px;">
+			<br>
+			<a href="../Home.html" target="_parent">
+				<button class="dropbtn animatie"><b>Acasă</b></button>
+			</a>
+			
+			<a href="Despre.html" target="_parent">
+				<button class="dropbtn animatie"><b>Despre</b></button>
+			</a>
+			
+			<div class="dropdown">
+                <button class="dropbtn" ><b>Cuprins</b></button>
+                <div  class="dropdown-content">
+                    <a href="Stefan.html">Cine a fost Ștefan cel Mare?</a>
+				    <a href="personalitate.html">Personalitatea</a>
+				    <a href="politica interna.html">Politica internă</a>
+					<a href="VES.html">Viața economica si sociala</a>
+					<a href="G3.html">Politica externa</a>
+					<a href="IR.html">Razboaie si batalii</a>
+					<a href="SF.html">Arta, cultura si religia</a>
+			  </div>
+			</div>
+			
+			<a href="Concluzie.html" target="_parent">
+				<button class="dropbtn animatie"><b>Concluzie</b></button>
+			</a>
+			
+			<a href="Bibliografie.html" target="_parent">
+				<button class="dropbtn animatie"><b>Bibliografie</b></button>
+			</a>
+		</center></p>
+	   </header>
+		<div  align="left" class="message">
+		<center><br><br>
+		<img  id="myImg" src="IMG/sigiliu.jpg" alt="Mașina Turing " style="width:250px;height:185px;">
+		<img id="myImg2" src="IMG/sigiliul2.jpg" alt="ANITA Mk.VII " style="width:250px;height:185px;">
+		</center><br>
+		<center><p><big><font size="+1">
+		<table>
+			<tr>
+				<th><big><font size="+2"><u>Politica internă</u></th>
+			</tr>
+			<tr>
+				<td><big><font size="+1"><p> &emsp; Politica dusă de Ștefan cel Mare pe plan intern de-a lungul domniei avea ca scop principal
+                    consolidarea puterii centrale a domnului și asigurarea liniștii sociale. În acest sens, principalele
+                    direcții de acțiune au fost reprezentate de: repopularea țării prin împroprietărirea cu pământ și
+                    acordarea de privilegii răzeșimii, crearea unei noi clase aristocratice (mica boierime) pe baza
+                    meritocrației militare, întărirea puterii militare și a capacității de apărare a țării, reconcilierea cu
+                    vechile familii boierești și rechemarea celor plecați în exil, asigurarea loialității Sfatului Domnesc -
+                    prin creșterea ponderii dregătorilor militari (pârcălabii) și introducerea unui număr însemnat de
+                    membri ai familiei sale.<br><p>
+				&emsp; În încercarea de a găsi o contrapondere politică la clasa marilor boieri, Ștefan a manifestat o
+                preocupare constantă pentru dezvoltarea micii boierimi (curtenii și slujitorii) și a țărănimii libere.Marea proprietate, 
+                acordată boierilor, era din punct de vedere juridic „feudă”, fiind grevată de
+                obligația titularului de a efectua serviciul militar cu oamenii săii în schimbul garantării de către
+                domn a posesiuni pământului. În schimb, mica proprietate, deși nu se se bucura de vreo garanție din
+                partea domnului, era lipsită și de constrângeri militare, fiind una de tip alodial.
+				</td>
+			</tr>
+		</table>
+		<center>
+			<img id="myImg3" src="IMG/stefan8.jpg" alt="ENIAC" style="width:200px;height:185px;">
+		</center>
+		<table>
+			<tr>
+				<td><p> &emsp; Din acest motiv, până la urcarea pe tron a lui Ștefan, țăranii liberi nu erau obligați să
+                    presteze serviciul militar, deoarece pământul pe care îl stăpâneau nu era primit de la domn. Ștefan
+                    avea să facă o reformă radicală în sistemul realțiilor feudale, prin obligarea țărănimii libere la
+                    prestarea serviciului militar, conferind astfel acestei clase o funcție politică importantă în viața
+                    statului. Utilizarea răzeșimii în armată a reprezenta o lovitură importantă la situația privilegiată a
+                    marii boierimi, singura care avea monopolul obligațiilor militare. În momentul în care Ștefan a
+                    implicat în chestiunile de apărare a țării și alte elemente sociale, care executau serviciul militar fără
+                    a primi în schimb imunități și privilegii, ponderea marii boierimi mari ca bază socială a țării, s-a
+                    diminuat în in mod esențial.
+                    <p> &emsp; Relația sa cu marea boierime a fost una în general pașnică, caracterizată prin
+                        autoritarism domnesc, cu puține manifestări de nesupunere sau revoltă din partea boierilor. Relația a
+                        evoluat în timp, pe măsură ce autoritatea centrală a domnului se întărea. Astfel, în primii ani de
+                        domnie, Ștefan a căutat să țină sub control puterea boierilor prin menținerea privilegiilor, iertarea
+                        celor care l-au slujit pe Petru Aron și trimiterea de cărți de iertare și rechemarea în țară a boierilor
+                        fugari, în frunte cu boierul Mihu. 
+                        Ștefan a schimbat de asemenea și ierarhia boierească, creând imediat sub domn un nivel al
+                        conducătorilor administrațiilor locale,  pârcălabii  de cetăți (ținuturi), cărora le-a acordat puteri
+                        lărgite. Pentru a-și consolida puterea și a-și asigura controlul asupra acestora, el a încredințat aceste
+                        posturi de mare raspundere doar rudelor sale și celor mai apropiați dintre boieri. Ca semn al
+                        importanței pe care o aveau, pârcălabii erau situați întotdeauna inaintea dregătorilor de curte, cu
+                        exceptia marelui  vornic .
+                        În aceeași idee Ștefan a asigurat o stabilitate mare pe funcții a marilor  dregători , mulți
+                        rămânând în aceeași poziție pentru un număr mare de ani, cum ar fi: marele spătar Câlnău –
+                        optsprezece ani, marele  vistiernic Iuga – douăzeci și unu de ani sau marele logofăt Tăutu – mai mult
+                        de treizeci de ani. Acest lucru a asigurat totodată și o mare stabilitate administrației țării.Ca urmare 
+                        â a acestor măsuri, Ștefan a avut de înfruntat doar două conspirații boierești în cei
+                        patruzeci și șapte de ani de domnie, cea din 1471 - când au fost decapitați trei mari boieri în frunte
+                        cu cumnatul său, marele vornic Isaia și cea organizată în 1504 - cu două zile înainte de moartea sa,care viza îndepărtarea fiului său Bogdan de la tron, terminată identic cu omorârea capilor
+                        conspirației. </p>
+				</td> 
+			</tr>
+		</table>
+		 </center>
+		</div>
+		 <footer>
+		 <p align="left"><font color="white" style="margin-left:5px;" >
+	<span style="float:right; margin-right:5px;"><u>Domnia lui Stefan cel Mare</u></span></font> </p></footer>
+	   </section>
+	</div>
+		<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="img">
+  <div id="caption"></div>
+</div>
+<div id="myModal2" class="modal">
+  <span class="close2">×</span>
+  <img class="modal-content" id="img2">
+  <div id="caption2"></div>
+</div>
+<div id="myModal3" class="modal">
+  <span class="close3">×</span>
+  <img class="modal-content" id="img3">
+  <div id="caption3"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+
+// Get the modal
+var modal = document.getElementById('myModal3');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg3');
+var modalImg = document.getElementById("img3");
+var captionText = document.getElementById("caption3");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close3")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// Get the modal
+var modal = document.getElementById('myModal2');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg2');
+var modalImg = document.getElementById("img2");
+var captionText = document.getElementById("caption2");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close2")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+</script>
+
+	</body>
+</html>

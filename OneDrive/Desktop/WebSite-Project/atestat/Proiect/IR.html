@@ -1,0 +1,346 @@
+﻿<!Doctype html>
+	<head>
+		<title>Războaie și bătălii</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="Css/style.css">
+		<style>
+		#myImg {
+		border: thick solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+#caption2 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+#caption3 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close2 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close3 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close3:hover,
+.close3:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+footer{
+	padding:0.1em;
+	background-color:#a76e0597;
+	clear:left;
+	text-align:center;
+}
+header{
+	padding:10px;
+	background-color:#a76e0597;
+	clear:left;
+	text-align:center;
+	padding-bottom:0.1mm;
+}
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+	text-align:left;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ffd859cf;
+}
+.animatie:hover{
+		background-color: #ffd859cf;
+	}
+.animatie2{
+		background-color: #ffd859cf;
+	}
+		</style>
+	</head>
+	<body background="IMG/back1.jpg" style=" background-attachment: fixed; overflow: visible;">
+	<div align="center" id="mainContainer">
+	   <section id="content-section"> 
+	   <header>
+	   
+		<p style="float: left;"><font color="white" size="+2" style="font-family:verdana">
+		<b>&emsp; Domnia lui Ștefan cel Mare </b></font>
+		<center align="right" style="margin-right:5px;">
+			<br>
+			<a href="../Home.html" target="_parent">
+				<button class="dropbtn animatie"><b>Acasă</b></button>
+			</a>
+			
+			<a href="Despre.html" target="_parent">
+				<button class="dropbtn animatie"><b>Despre</b></button>
+			</a>
+			
+			<div class="dropdown">
+			  	<button class="dropbtn"><b>Cuprins</b></button>
+                    <div  class="dropdown-content">
+                        <a href="Stefan.html">Cine a fost Ștefan cel Mare?</a>
+				        <a href="personalitate.html">Personalitatea</a>
+				        <a href="politica interna.html">Politica internă</a>
+					    <a href="VES.html">Viața economica si sociala</a>
+					    <a href="G3.html">Politica externa</a>
+					    <a href="IR.html">Razboaie si batalii</a>
+					    <a href="SF.html">Arta, cultura si religia</a>
+			        </div>
+			</div>
+			
+			<a href="Concluzie.html" target="_parent">
+				<button class="dropbtn animatie"><b>Concluzie</b></button>
+			</a>
+			
+			<a href="Bibliografie.html" target="_parent">
+				<button class="dropbtn animatie"><b>Bibliografie</b></button>
+			</a>
+		</center></p>
+	   </header>
+		<div  align="left" class="message">
+		<center><br><br>
+		<img  id="myImg" src="IMG/razboi.jpg" alt="CIFA-1" style="width:300px;height:210px;">
+		</center><br>
+		<center><p><big><font size="+1">
+		<table>
+			<tr>
+				<th><big><font size="+2"><u>Războaie și bătălii</u></th>
+			</tr>
+			<tr>
+				<td><big><font size="+1"><p> &emsp; Cea mai răspândită și acceptată variantă referitoare la numărul conflictelor armate 
+                    („bătăliilor”) la care a participat Ștefan cel Mare este de 36. Cifra este bazată chiar pe mărturisirea domnului moldovean 
+                    făcută în 1502 medicului venețian Matteo Muriano: „eu sunt înconjurat de dușmani din toate părțile și am purtat 36 de lupte 
+                    de când sunt domnul acestei țări, dintre care am fost învingător în 34 și am pierdut 2”. Într-o analiză detaliată, istoricul
+                     Alexandru Boldur mai identifică suplimentar alte patru incursiuni armate la care Ștefan nu a participat, acestea fiind conduse
+                     de alți comandanți, numiți de domn.
+                    O clasificare sintetică a tipurilor de conflicte armate, la care a participat oastea moldoveană sub conducerea lui Ștefan cel Mare,
+                     este prezentată în tabelul alăturat.<br><br><p> &emsp; Marile bătălii : <br><br>
+
+                     <p> &emsp; ⦁	Bătălia de la Baia <br><br>
+                        <p> &emsp; Bătălia de la Baia a avut loc în noapte de 14/ 15 decembrie 1467, la aproape o lună de la invadarea Moldovei de către armata 
+                            Regatului Ungar condusă de regele Matia Corvin. Campania regelui ungar venea după o serie de incidente care tensionaseră foarte 
+                            mult relațiile dintre cele două state, cum ar fi dezvoltara legăturilor cu Regatul Poloniei, incursiunea în secuime din 1461, 
+                            cucerirea Chiliei în 1465 și găzduirea de către regele ungar a unor pretendenți la tron, ca Petru Aron sau Berindei. Cauza imediată
+                             a constituit-o sprijinul direct pe care Ștefan îl acordase răscoalei ardelenilor impotriva regelui ungar, din 1467.
+                            Campania a început la 19 noiembrie 1467, odată cu trecerea oastei ungare, numărând circa 40.000 de oșteni, prin pasul Oituz, urmată
+                             de asedierea și distrugerea orașelor Târgu Trotuș, Bacău, Roman și Târgu Neamț. La 7 decembrie armata ungară a ajuns la Baia.
+                            Având în vedere pericolul iminent ca inamicul să atace capitala țării, Suceava, Ștefan decide să execute o lovitură decisivă, prin 
+                            surprindere, asupra trupelor ungare cantonate la Baia. Forțele moldovene, de circa 12.000 de oameni au atacat orașul în noapte de 14/ 15
+                             decembrie 1467, din trei direcții, după ce în prealabil au dat foc întăriturilor de lemn care îl protejau. După lupte îndârjite 
+                             desfășurate toată noaptea, armata ungară a fost nevoită să abandoneze orașul și să se retragă spre Transilvania, regele Matia însuși 
+                             fiind rănit în luptă. Retragerea a fost favorizată și de inacțiunea unuia dintre corpurile de armată moldovene, condus de vornicul 
+                             Crasnăș, care ulterior va fi judecat pentru trădare, condamnat la moarte și executat. <br><br>
+
+                     <p> &emsp; ⦁	Bătălia de la Codrii Cosminului  <br><br>
+                        <p> &emsp;
+                            Bătălia de la Codrii Cosminului s-a desfășurat între 26-30 octombrie 1497,
+                             lupta principală având loc în Codrii Cosminului, o zonă împădurită situată la 
+                             circa 100 km nord de Suceava, pe teritoriul actualele comune Voloca pe Derelui și 
+                             Valea Cosminului din regiunea Cernăuți, Ucraina. Bătălia a opus oastea Moldovei, 
+                             sub comanda lui Ștefan cel Mare și oastea Uniunii Polono-Lituaniene, comandată de regele Ioan I Albert
+
+
+                    
+				</td>
+                    
+			</tr>
+		</table>
+		 </center>
+		 </div>
+		 <footer>
+		 <p align="left"><font color="white" style="margin-left:5px;" >
+	<span style="float:right; margin-right:5px;"><u>Domnia lui Stefan cel Mare</u></span></font> </p></footer>
+	   </section>
+	</div>
+		<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="img">
+  <div id="caption"></div>
+</div>
+<div id="myModal2" class="modal">
+  <span class="close2">×</span>
+  <img class="modal-content" id="img2">
+  <div id="caption2"></div>
+</div>
+<div id="myModal3" class="modal">
+  <span class="close3">×</span>
+  <img class="modal-content" id="img3">
+  <div id="caption3"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+
+
+</script>
+
+	</body>
+</html>
